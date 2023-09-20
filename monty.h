@@ -23,6 +23,7 @@ typedef struct global_s
 	char *arg;
 	FILE *file;
 	char *line;
+	int lifi;
 } glob_t;
 
 extern glob_t glob;
@@ -74,6 +75,8 @@ void op_mul(stack_t **stack, unsigned int line_number);
 void op_mod(stack_t **stack, unsigned int line_number);
 void op_pchar(stack_t **stack, unsigned int line_number);
 void op_pstr(stack_t **stack, unsigned int line_number);
+void f_queue(stack_t **head, unsigned int counter);
+void f_stack(stack_t **head, unsigned int counter);
 
 /* Stack helper functions */
 stack_t *add_node(stack_t **stack, const int n);
