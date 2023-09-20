@@ -3,7 +3,7 @@
 glob_t glob;
 
 /**
- * main - entry point for the monty program
+ * main - entry point monty program
  * @argc: number of command line arguments
  * @argv: array of command line argument strings
  *
