@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * op_pint - prints the value at the top of the stack
+ * op_pint - prints the value at the top
  * @stack: pointer to the top of the stack
  * @line_number: line number of the opcode
 */
