@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * execute_file - reads and executes opcodes from a file
+ * execute_file - reads and executes codes from a file
  * @stack: pointer to the top of the stack
  */
 void execute_file(stack_t **stack)
