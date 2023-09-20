@@ -11,7 +11,7 @@
 #include <fcntl.h>
 
 /**
- * struct global_s - variables -> args, file, line content
+ * struct global_s - variables -> args, file, line
  * @arg: value
  * @line: input line content
  * @file: pointer to monty file
